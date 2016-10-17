@@ -198,6 +198,7 @@ void MENU()
 	Lab43 aftd;
 	Lab42_2 afth;
 	Lab5_1 sdrf;
+	Lab5_2 sdrff;
 	system("color 3e");
 	system("cls");
 	while (done != 0)
@@ -228,7 +229,7 @@ void MENU()
 		case 7:  afth.main();      break;
 		case 8:  aftd.main();      break;
 		case 9:  sdrf.CallAll();      break;
-		case 10:  aftd.main();      break;
+		case 10: sdrff.CallAll();     break;
 		case 0:                 break;
 		default:                  break;
 		}
